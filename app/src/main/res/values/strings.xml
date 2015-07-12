@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Please Enter a Medicine Below</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="medicine_array">
+        <item>Aspirin</item>
+        <item>Caffeine</item>
+        <item>Ibuproffen</item>
+        <item>Acetoaminophen</item>
+        <item>Androgel</item>
+        <item>Cadeut</item>
+        <item>Calcitrol</item>
+        <item>Cantil</item>
+    </string-array>
+
+    <string name="title_activity_medicine_list_view">Medicine Inventory</string>
+    <string name="title_activity_show_curated">Currated Medicine Inventory</string>
+
+
+</resources>

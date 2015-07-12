@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:orientation="horizontal">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+
+        <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/medicine_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicine Name"
+            android:textSize="35dp"
+
+            android:focusable="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mg_tab"
+            android:hint="Mg / Tab"
+            android:textSize="35sp"
+
+            android:layout_marginTop="40dp"
+            android:inputType="number"
+ />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/no_tab"
+            android:hint="No. of Tabs"
+            android:textSize="35sp"
+            android:layout_marginTop="50dp"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expiry"
+            android:hint="Expiration Date"
+            android:textSize="35sp"
+            android:layout_marginTop="0dp"
+            android:inputType="date" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opened"
+            android:hint="Opened Date"
+            android:textSize="35sp"
+            android:layout_marginTop="40dp"
+            android:inputType="date" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/patient_id"
+            android:hint="Patient Id"
+            android:textSize="35sp"
+            android:layout_marginTop="50dp"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="65dp"
+            android:text="View Inventory"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/my_button"
+            android:id="@+id/lvBtn" />
+
+        <Button
+            android:layout_height="65dp"
+            android:layout_width="201dp"
+            android:text="Submit Online"
+            android:layout_marginTop="50dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/my_button"
+            android:id="@+id/submit"
+            android:textSize="15dp"/>
+
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/my_button"
+            android:text="Verify"
+            android:id="@+id/localBtn"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
