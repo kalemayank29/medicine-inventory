@@ -33,7 +33,7 @@ import java.util.List;
 
 public class MedicineDataBase extends AppCompatActivity {
 
-    Button submit, localBtn, lvBtn;
+    Button localBtn, lvBtn;
     EditText editMed, editNoTabs, editMg, editExp, editOpen, editPatientId;
     MedicineDBHandler db;
 
@@ -51,7 +51,6 @@ public class MedicineDataBase extends AppCompatActivity {
         //Declaration of all buttons and text fields
         db = new MedicineDBHandler(getApplicationContext());
         localBtn = (Button) findViewById(R.id.localBtn);
-        submit = (Button) findViewById(R.id.submit);
         lvBtn = (Button) findViewById(R.id.lvBtn);
         editMed = (EditText) findViewById(R.id.medicine_name);
         editNoTabs = (EditText) findViewById(R.id.no_tab);

@@ -20,10 +20,11 @@
         android:text="View Curated"
         android:background="@drawable/my_button"
         android:layout_width="100dp"
-        android:layout_height="65dp"
+        android:layout_height="40dp"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
         android:textColor="#ffffff"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:id="@+id/curBtn"
         android:layout_gravity="bottom"
         android:layout_weight="0.40" />

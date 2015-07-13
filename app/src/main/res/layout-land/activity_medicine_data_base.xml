@@ -94,26 +94,16 @@
 
         <Button
             android:layout_width="201dp"
-            android:layout_height="65dp"
+            android:layout_height="45dp"
             android:text="View Inventory"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="185dp"
             android:textColor="#ffffff"
             android:background="@drawable/my_button"
             android:id="@+id/lvBtn" />
 
         <Button
-            android:layout_height="65dp"
             android:layout_width="201dp"
-            android:text="Submit Online"
-            android:layout_marginTop="50dp"
-            android:textColor="#ffffff"
-            android:background="@drawable/my_button"
-            android:id="@+id/submit"
-            android:textSize="15dp"/>
-
-        <Button
-            android:layout_width="201dp"
-            android:layout_height="65dp"
+            android:layout_height="45dp"
             android:layout_marginTop="10dp"
             android:textColor="#ffffff"
             android:background="@drawable/my_button"
